@@ -1,0 +1,45 @@
+.our-task {
+  padding-top: 0;
+}
+.our-task-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+  margin-bottom: 50px;
+  text-align: center;
+}
+.task-top-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.task-top-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  padding: 27px 82px;
+  position: absolute;
+}
+
+.examples-item-paragraph {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: rgba(117, 117, 117, 1);
+}
+.our-task-list {
+  display: flex;
+}
+.our-task-list-item:not(:last-child) {
+  margin-right: 30px;
+}
