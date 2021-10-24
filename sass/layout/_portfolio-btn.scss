@@ -1,4 +1,4 @@
-.button {
+.portfolio__button {
   background-color: var(--buttons-color-portfolio);
   color: var(--title-color);
   font-weight: 500;
@@ -18,11 +18,11 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.filter-buttons {
+.portfolio__buttons {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
-.filter-btn-item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }

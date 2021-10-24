@@ -2,7 +2,7 @@
   display: flex;
   align-items: baseline;
 }
-.footer-contacts {
+.footer__contacts {
   margin-right: 70px;
 }
 .footer {
@@ -10,7 +10,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-logo {
+.footer__logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -19,26 +19,27 @@
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-.footer-adress {
+
+.footer-list__adress {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
-.address {
+.footer__address {
   margin-top: 20px;
 }
-.footer-list {
+.footer__list {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color);
   font-style: normal;
 }
-.footer-studio {
+.footer__studio {
   color: var(--button-text-color);
 }
-.footer-contact-link {
+.footer-list__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -50,8 +51,13 @@
     color: var(--accent-color);
   }
 }
+
 /* !!!!!!!!!JOIN-footer!!!!!!!*/
-.join-title {
+.footer-join__list {
+  display: flex;
+  justify-content: center;
+}
+.footer-join__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -60,13 +66,10 @@
   color: var(--primary-title-color);
   margin-bottom: 20px;
 }
-.social-item-footer {
+
+.footer-join__item {
   height: 44px;
   width: 44px;
-}
-.social-link-footer {
-  width: 100%;
-  height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
@@ -82,19 +85,20 @@
     background-color: var(--button-color);
   }
 }
-.social-icon-footer {
+.footer-join__link {
+  width: 100%;
+  height: 100%;
+}
+.footer-join__icon {
   height: 20px;
   width: 20px;
   fill: var(--button-text-color);
 }
-.social-list-footer {
-  display: flex;
-  justify-content: center;
-}
-.social-item-footer + .social-item-footer {
+
+.footer-join__item + .footer-join__item {
   margin-left: 10px;
 }
-.follow-title {
+.footer-follow__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -103,25 +107,25 @@
   color: var(--button-text-color);
   margin-bottom: 20px;
 }
-.mail-follow {
+.footer-follow__mail {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  drop-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
   padding-left: 16px;
   color: #ffffff;
 }
-.follow {
+.footer__follow {
   margin-left: 93px;
 }
-.inputs {
+.footer-follow__inputs {
   display: flex;
   justify-content: center;
 }
 
-.follow-btn {
+.footer-follow__btn {
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
@@ -138,6 +142,6 @@
   align-items: center;
   justify-content: center;
 }
-.send-icon {
+.footer-follow__icon {
   margin-left: 10px;
 }

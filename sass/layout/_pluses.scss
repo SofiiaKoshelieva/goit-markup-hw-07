@@ -1,4 +1,4 @@
-.svg-container {
+.pluses-list__container-svg {
   height: 120px;
   width: 270px;
   background-color: var(--buttons-color-portfolio);
@@ -8,22 +8,21 @@
   justify-content: center;
   align-items: center;
 }
-.pluses-icon {
+.pluses-list__icon {
   height: 70px;
   width: 70px;
-
   background-size: cover;
 }
 
-.pluses-list {
+.pluses__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.pluses-item:not(:last-child) {
+.pluses-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.pluses-item-title {
+.pluses-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -32,7 +31,7 @@
   color: var(--title-color);
   margin-bottom: 10px;
 }
-.pluses-item-text {
+.pluses-list__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;

@@ -1,7 +1,7 @@
-.our-task {
+.task {
   padding-top: 0;
 }
-.our-task-title {
+.task__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -11,12 +11,12 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.task-top-wrapper {
+.task-list__wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.task-top-text {
+.task-list__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -31,15 +31,9 @@
   position: absolute;
 }
 
-.examples-item-paragraph {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: rgba(117, 117, 117, 1);
-}
-.our-task-list {
+.task__list {
   display: flex;
 }
-.our-task-list-item:not(:last-child) {
+.task-list__item:not(:last-child) {
   margin-right: 30px;
 }
