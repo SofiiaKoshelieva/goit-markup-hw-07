@@ -1,4 +1,4 @@
-.portfolio-box__title {
+.case__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -7,7 +7,7 @@
   margin-bottom: 4px;
 }
 
-.portfolio-examples__text {
+.examples__text {
   font-size: 16px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 0.9);
@@ -16,17 +16,16 @@
   left: 0;
   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.03em;
   height: 100%;
   padding: 63px 24px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-examples__wrapper {
+.examples__wrapper {
   position: relative;
   overflow: hidden;
 }
-.portfolio-box__paragraph {
+.case-paragraph {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -35,7 +34,7 @@
 .examples {
   padding-top: 94px;
 }
-.portfolio-examples__link {
+.examples__link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,16 +43,16 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  &:hover .portfolio-examples__text,
-  &:focus .portfolio-examples__text {
+  &:hover .examples__text,
+  &:focus .examples__text {
     transform: translateY(0);
   }
 }
-.portfolio__examples {
+.examples {
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-examples__item {
+.examples__item {
   flex-basis: calc((100% - 60px) / 3);
   margin-bottom: 30px;
   &:not(:nth-child(3n)) {
@@ -66,7 +65,7 @@
     width: 100%;
   }
 }
-.portfolio__box {
+.case {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;

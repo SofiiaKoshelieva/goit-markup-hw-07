@@ -10,26 +10,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer__logo {
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  margin-bottom: 20px;
-}
-
-.footer-list__adress {
+.connection__item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
-.footer__address {
+.address {
   margin-top: 20px;
 }
-.footer__list {
+.connection {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -39,7 +29,7 @@
 .footer__studio {
   color: var(--button-text-color);
 }
-.footer-list__link {
+.connection__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -50,14 +40,15 @@
   &:focus {
     color: var(--accent-color);
   }
+  display: block;
 }
 
 /* !!!!!!!!!JOIN-footer!!!!!!!*/
-.footer-join__list {
+.join {
   display: flex;
   justify-content: center;
 }
-.footer-join__title {
+.footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -67,7 +58,7 @@
   margin-bottom: 20px;
 }
 
-.footer-join__item {
+.join__item {
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -76,38 +67,28 @@
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover .social-icon,
-  &:focus .social-icon {
+  &:hover .join__icon,
+  &:focus .join__icon {
     fill: var(--primary-title-color);
   }
   &:hover,
   &:focus {
     background-color: var(--button-color);
   }
+  & + & {
+    margin-left: 10px;
+  }
 }
-.footer-join__link {
+.join__link {
   width: 100%;
   height: 100%;
 }
-.footer-join__icon {
+.join__icon {
   height: 20px;
   width: 20px;
   fill: var(--button-text-color);
 }
-
-.footer-join__item + .footer-join__item {
-  margin-left: 10px;
-}
-.footer-follow__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-text-color);
-  margin-bottom: 20px;
-}
-.footer-follow__mail {
+.follow__mail {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -117,15 +98,15 @@
   padding-left: 16px;
   color: #ffffff;
 }
-.footer__follow {
+.form {
   margin-left: 93px;
 }
-.footer-follow__inputs {
+.follow__inputs {
   display: flex;
   justify-content: center;
 }
 
-.footer-follow__btn {
+.follow__btn {
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
@@ -142,6 +123,6 @@
   align-items: center;
   justify-content: center;
 }
-.footer-follow__icon {
+.follow__icon {
   margin-left: 10px;
 }

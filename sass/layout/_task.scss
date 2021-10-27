@@ -1,22 +1,13 @@
-.task {
+.section__task {
   padding-top: 0;
 }
-.task__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
 
-  color: var(--title-color);
-  margin-bottom: 50px;
-  text-align: center;
-}
-.task-list__wrapper {
+.task__wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.task-list__text {
+.task__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -31,9 +22,9 @@
   position: absolute;
 }
 
-.task__list {
+.task {
   display: flex;
 }
-.task-list__item:not(:last-child) {
+.task__item:not(:last-child) {
   margin-right: 30px;
 }
