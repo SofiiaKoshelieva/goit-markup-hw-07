@@ -57,24 +57,9 @@
   color: var(--primary-title-color);
   margin-bottom: 20px;
 }
-
 .join__item {
   height: 44px;
   width: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover .join__icon,
-  &:focus .join__icon {
-    fill: var(--primary-title-color);
-  }
-  &:hover,
-  &:focus {
-    background-color: var(--button-color);
-  }
   & + & {
     margin-left: 10px;
   }
@@ -82,11 +67,26 @@
 .join__link {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--button-color);
+  }
+  &:hover .social__icon,
+  &:focus .social__icon {
+    fill: var(--primary-title-color);
+  }
 }
 .join__icon {
   height: 20px;
   width: 20px;
   fill: var(--button-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .follow__mail {
   width: 358px;
@@ -101,7 +101,7 @@
 .form {
   margin-left: 93px;
 }
-.follow__inputs {
+.follow {
   display: flex;
   justify-content: center;
 }
